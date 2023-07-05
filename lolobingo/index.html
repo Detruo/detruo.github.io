@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>League of Legends Bingo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+	<div class="bg">.</div>
+	<table id="bingotable">
+		<tr>
+			<td colspan="5" class="intro" id="intro">LEAGUE OF LEGENDS BINGO</td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr class="buttons">
+			<td class="blank" colspan="4"></td>
+			<td class="refresh" onclick="refresh()"></td>
+		</tr>
+	</table>
+	
+	<script>
+		var bingo = [
+			"Yasuo pick/ban",
+			"Support carry",
+			'"Jng diff"',
+			"Ktoś spał z twoją matką",
+			"Jungler nie mówi/pinguje że gankuje",
+			'"GG" przed 10 minutą',
+			"Top umiera przed 5 minutą",
+			"Sojusznik ma 0 killi do 10 minuty",
+			"Spamowanie pingami",
+			"Ragequit",
+			"max 40 farmy w 10 minucie",
+			"Złe runy",
+			"Obrażanie swojego teamu",
+			"Jungler missuje smite'a",
+			"Różnica więcej niż 100lvl",
+			"Sojusznicza wieża zniszczona do 14 minuty",
+			"Wroga wieża zniszczona do 14 minuty",
+			"Spamowanie maestrią 7lvl",
+			"Smok zrobiony do 7 minuty",
+			"Wrogi team zrobił smoka do 7 minuty",
+			'"ff 15"',
+			"Wroga drużyna poddaje się w 15 minucie",
+			"Twoja drużyna poddaje się w 15 minucie",
+			"Enemy first blood",
+			"Twój team zniszczył pierwszą wieżę",
+			"Mid nie pomaga przy smoku",
+			"Pentakill",
+			"Quadrakill",
+			"Triple kill",
+			"AFK",
+			"Przegranie wygranej gry",
+			"Nieudany dive pod turreta",
+			"Baron/smok steal",
+			"+4 sekundy CC",
+			"Brak tanków",
+			"Wszyscy w enemy mają skiny",
+			"Wszyscy w twojej drużynie mają skiny",
+			"Przeciwnik się wkurwia na chatcie",
+			"Penta-steal",
+			"Pozytywne K/D na koniec gry",
+			"Negatywne K/D na koniec gry",
+			"Jungler wyzywa bota",
+			'"Bot diff"',
+			'"Mid diff"',
+			'"Report bot"',
+			"Jungler gankuje i ginie",
+			"Ktoś robi playsa jak Faker",
+			"Teamfight na baronie",
+			"Fail flash",
+			"Ktoś kupuje Zhonye",
+			"Ktoś kupuje Stattika",
+			"Ktoś kupuje Plemienną (Warmog)",
+			"Ktoś kupuje  (Warmog)",
+			"Jungler kradnie cannona",
+			"Ktoś ma 10 deadów",
+			"1v2 outplay",
+			"Ktoś używa Zegarka (Stopwatch)",
+			"Nieudane użycie Wybuchowej Szyszyki",
+			"Wyrywacie gre ale przegrywacie teamfight",
+			'"GG ez" w przegranej grze'
+		];
+	
+	var unique = true;
+	
+	function randomizer(){
+		var item = bingo[Math.floor(Math.random()*bingo.length)];
+		
+		var table = document.getElementById("bingotable");
+			for (var i = 0, row; row = table.rows[i]; i++) {
+				for (var j = 0, col; col = row.cells[j]; j++) {
+					var zawartosc = col.innerHTML
+					if (zawartosc == item){
+						item = "";
+						
+						unique = false;
+					}
+				}  
+			}
+	
+		return item;
+	}
+	
+	function losujKafelki(){
+		var table = document.getElementById("bingotable");
+		for (var i = 0, row; row = table.rows[i]; i++) {
+			for (var j = 0, col; col = row.cells[j]; j++) {
+				if (col.innerHTML == "") col.innerHTML = randomizer();
+			}  
+		}
+		if (unique == false){
+			unique = true;
+			losujKafelki();
+		}
+		document.getElementById("intro").innerHTML = "LEAGUE OF LEGENDS BINGO";
+		$(".blank").html("");
+		$(".refresh").html("LOSUJ JESZCZE RAZ");
+	}
+	losujKafelki();
+	
+	function refresh(){
+		unique = false;
+		var table = document.getElementById("bingotable");
+		for (var i = 0, row; row = table.rows[i]; i++) {
+			for (var j = 0, col; col = row.cells[j]; j++) {
+				col.innerHTML = "";
+				if ((col.className != "blank" && col.className != "refresh") && col.className != "intro"){
+					$(col).css("background-color", "rgba(255,255,255,0.1)");
+				}
+			}  
+		}
+		losujKafelki();
+	}
+		
+	
+	//ZAZNACZANIE
+	
+	$("td").on("click", function(){
+		if ((this.className != "blank" && this.className != "refresh") && this.className != "intro"){
+			if ($(this).css("background-color") == 'rgba(255, 255, 255, 0.1)'){
+				$(this).css("background-color", "rgba(80, 222, 192,0.5)");
+				$(this).css("border", "1px solid #297565");
+			}
+			else{
+				$(this).css("background-color", "rgba(255,255,255,0.1)");
+				$(this).css("border", "1px solid black");
+			}
+		}
+	});
+		
+		
+	
+	</script>
+	
+</body>
+</html>

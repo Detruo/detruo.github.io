@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Valorant Bingo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+	<div class="bg">.</div>
+	<table id="bingotable">
+		<tr>
+			<td colspan="5" class="intro" id="intro">VALORANT BINGO</td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr class="buttons">
+			<td class="blank" colspan="4"></td>
+			<td class="refresh" onclick="refresh()"></td>
+		</tr>
+	</table>
+	
+	<script>
+		var bingo = [
+			"ACE",
+			"TEAM ACE",
+			"Sojusznik zrobił ACE",
+			"Clutch",
+			"Zabij 4 podczas 1v5 i zgiń od ostatniego",
+			"Przeproś, bo chujowo Ci idzie",
+			"Pochwal sojusznika",
+			"Pochwal wroga",
+			"Wygraj grę z pozytywnym K/D",
+			"Wygraj grę z negatywnym K/D",
+			"Wygraj pistoletówkę",
+			"Przegraj pistoletówkę",
+			"Zadaj sobie obrażenia spadająć z wysokości",
+			//Zakupy
+			"Kup komuś Stingera",
+			"Kup komuś Phantoma",
+			"Kup komuś Vandala",
+			"Kup komuś Operatora",
+			"Kup komuś Odina",
+			"Nie kupuj armora (nie pistoletówka)",
+			//Wszyscy grają..
+			"Wszyscy grają Ghostem",
+			"Wszyscy grają Vandalem",
+			"Wszyscy grają Spectre",
+			"Zadaj min. 150 obrażeń, ale nie zabij",
+			//Spike
+			"Rozbrój spike, kiedy wrogowie żyją",
+			"Rozbrój pół spike",
+			"Oddaj pół spike sojusznikowi",
+			"Wróg rozbroił spike kiedy sojusznicy żyją",
+			"Sojusznik fake plantuje",
+			"Podłóż spike w otwartej przestrzeni",
+			//Zdobądź killa
+			"Zdobądź 1 killa z Marshala",
+			"Zdobądź 1 killa z Marshala bez przybliżania",
+			"Zdobądź 1 killa z Operatora",
+			"Zdobądź 1 killa z Judge",
+			"Zdobądź 1 killa z Frenzy",
+			"Zdobądź 1 killa Aresem",
+			"Zdobądź 1 killa z Sheriffa",
+			"Zabij przez smoke'a",
+			"Zabij będąc oślepionym",
+			"Zabij skillem",
+			"Zabij ultem",
+			"Zmarnuj ulta",
+			"Przegraj 1v1",
+			"Wygraj 1v1",
+			"Przegrana gra",
+			"Wygrana gra",
+			"Zabij strzelając tylko w nogi",
+			//Milestony
+			"Zdobądź 10 zabójstw",
+			"Zdobądź 15 zabójstw",
+			"Zdobądź 20 zabójstw",
+			"Zdobądź 2 zabójstwa podczas jednej rundy",
+			"Zdobądź 3 zabójstwa podczas jednej rundy",
+			"Zgiń 10 razy",
+			"Zgiń 20 razy",
+			"Zdobądź 10 asyst",
+			"Zdobądź 20 asyst",
+			"Zabij flick-shotem",
+			"Zabij headshotem",
+			"Zabij przez ścianę",
+			"Zabij one-tapem",
+			"Zabij nożem",
+			//Discord
+			"Sojusznik Cię wyzywa",
+			"Sojusznik kogoś wyzywa",
+			"Sojusznik krzyczy",
+			//Chat
+			"Wróg pyta o rangę",
+			"Wróg Cię wyzywa",
+			"Wróg Cię pochwalił",
+			'Wróg pisze "XDDDDD"',
+			'Wróg pisze "EZ"',
+			'Wróg pisze "GG"',
+			//Inne
+			"Zniszcz roombę Raze",
+			"Zniszcz lotkę Sovy",
+			"Zniszcz nóż KAY/O",
+			"Zniszcz oko Reyny",
+			"Zgiń od shotguna",
+			"Zgiń od umiejętności",
+			"Zgiń od eksplozji spike",
+			"Zgiń od Operatora",
+			"Dopinguj drużynę przez 3 rundy",
+			"Zostajesz oślepiony od sojusznika",
+			"Zostajesz oślepiony 2 razy podczas jednej rundy",
+			"Sojusznik zadał Ci obrażenia",
+			"Sojusznik Cię stunuje",
+			"Run-and-gun kill",
+			"Przeżyj 3 rundy",
+			"Sojusznik insta-pickuje",
+			"Mów w innym akcencie przez jedną rundę",
+			"Pierwszy w tabeli (koniec meczu)",
+			"Team chce poddać po 5 rundach",
+			"Team chce poddać po pierwszej połowie",
+			'"ff please"',
+			"Zadaj wszystkim obrażenia, ale nie zabij nikogo",
+			"Ostatni w tabeli (koniec meczu)",
+			"Nie kupuj !NIC! w pierwszej rundzie",
+			"Reyna w enemy",
+			"Ktoś ma skin Zemsta Gai",
+			"Ktoś ma skin Prime",
+			"Ktoś ma skin BulBul",
+			"AFK w teamie",
+			"AFK w enemy"
+		];
+	
+	var unique = true;
+	
+	function randomizer(){
+		var item = bingo[Math.floor(Math.random()*bingo.length)];
+		
+		var table = document.getElementById("bingotable");
+			for (var i = 0, row; row = table.rows[i]; i++) {
+				for (var j = 0, col; col = row.cells[j]; j++) {
+					var zawartosc = col.innerHTML
+					if (zawartosc == item){
+						item = "";
+						
+						unique = false;
+					}
+				}  
+			}
+	
+		return item;
+	}
+	
+	function losujKafelki(){
+		var table = document.getElementById("bingotable");
+		for (var i = 0, row; row = table.rows[i]; i++) {
+			for (var j = 0, col; col = row.cells[j]; j++) {
+				if (col.innerHTML == "") col.innerHTML = randomizer();
+			}  
+		}
+		if (unique == false){
+			unique = true;
+			losujKafelki();
+		}
+		document.getElementById("intro").innerHTML = "VALORANT BINGO";
+		$(".blank").html("");
+		$(".refresh").html("LOSUJ JESZCZE RAZ");
+	}
+	losujKafelki();
+	
+	function refresh(){
+		unique = false;
+		var table = document.getElementById("bingotable");
+		for (var i = 0, row; row = table.rows[i]; i++) {
+			for (var j = 0, col; col = row.cells[j]; j++) {
+				col.innerHTML = "";
+				if ((col.className != "blank" && col.className != "refresh") && col.className != "intro"){
+					$(col).css("background-color", "rgba(255,255,255,0.1)");
+				}
+			}  
+		}
+		losujKafelki();
+	}
+		
+	
+	//ZAZNACZANIE
+	
+	$("td").on("click", function(){
+		if ((this.className != "blank" && this.className != "refresh") && this.className != "intro"){
+			if ($(this).css("background-color") == 'rgba(255, 255, 255, 0.1)'){
+				$(this).css("background-color", "rgba(80, 222, 192,0.5)");
+				$(this).css("border", "1px solid #297565");
+			}
+			else{
+				$(this).css("background-color", "rgba(255,255,255,0.1)");
+				$(this).css("border", "1px solid black");
+			}
+		}
+	});
+		
+		
+	
+	</script>
+	
+</body>
+</html>
