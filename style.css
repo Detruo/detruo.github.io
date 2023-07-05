@@ -65,7 +65,11 @@ td{
 	background: url("bg/lolobingo.jpg");
 }
 
-.valobingo, .lolobingo{
+.arambingo{
+	background: url("bg/arambingo.jpg");
+}
+
+.kafelka{
 	background-size: auto 100%;
 	background-position: center;
 	vertical-align: bottom;
