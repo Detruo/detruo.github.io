@@ -36,7 +36,10 @@
 		});
 		
 		$(".submit").on("click", function(){
-			$(".content").load("villagers.html");
+			var godzina = $(".godzina").val();
+			var minuta = $(".minuta").val();
+			var czas = $(".ampm").html();
+			$(".container").load("villagers.html");
 		});
 	</script>
 </body>
