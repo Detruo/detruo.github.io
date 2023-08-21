@@ -41,16 +41,18 @@
 			var czas = $(".ampm").html();
 			$(".container").load("villagers.html");
 			setInterval(function(){
-				if(typeof(godzina) != "undefined") $(".godz").html(godzina);
-				if(typeof(minuta) != "undefined") $(".min").html(minuta);
-				if(typeof(czas) != "undefined") $(".czas").html(czas);minuta += 1;
+				if(typeof(godzina) != "undefined") $(".godz").html(parseInt(godzina));
+				if(typeof(minuta) != "undefined") $(".min").html(parseInt(minuta));
+				if(typeof(czas) != "undefined") $(".czas").html(czas);;
 				
-				if (minuta == 60){
-					minuta = 00;
-					godzina += 1;
+				parseInt(minuta) += 1
+				
+				if (parseInt(minuta) == 60){
+					parseInt(minuta) = 00;
+					parseInt(godzina) += 1;
 				}
-				if (godzina == 13){
-					godzina = 1;
+				if (parseInt(godzina) == 13){
+					parseInt(godzina) = 1;
 					if (czas = "AM") czas = "PM"
 					else czas = "AM";
 				}
