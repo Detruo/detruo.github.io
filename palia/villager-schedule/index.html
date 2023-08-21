@@ -40,9 +40,10 @@
 			var minuta = $(".minuta").val();
 			var czas = $(".ampm").html();
 			setInterval(function(){
-				if(typeof(godzina) != "undefined")  $(".godz").html(godzina); console.log(godzina);
-				if(typeof(minuta) != "undefined")  else $(".min").html(minuta); console.log(godzina);
-				if(typeof(czas) != "undefined") else $(".czas").html(czas); console.log(godzina);
+				if(typeof(godzina) != "undefined") $(".godz").html(godzina);
+				if(typeof(minuta) != "undefined") $(".min").html(minuta);
+				if(typeof(czas) != "undefined") $(".czas").html(czas);
+				console.log(godzina + ":" + minuta + " " + czas)
 			},1000)
 			$(".container").load("villagers.html");
 		});
