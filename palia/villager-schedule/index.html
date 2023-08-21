@@ -39,13 +39,23 @@
 			var godzina = $(".godzina").val();
 			var minuta = $(".minuta").val();
 			var czas = $(".ampm").html();
+			$(".container").load("villagers.html");
 			setInterval(function(){
 				if(typeof(godzina) != "undefined") $(".godz").html(godzina);
 				if(typeof(minuta) != "undefined") $(".min").html(minuta);
-				if(typeof(czas) != "undefined") $(".czas").html(czas);
+				if(typeof(czas) != "undefined") $(".czas").html(czas);minuta += 1;
+				
+				if (minuta == 60){
+					minuta = 00;
+					godzina += 1;
+				}
+				if (godzina == 13){
+					godzina = 1;
+					if (czas = "AM") czas = "PM"
+					else czas = "AM";
+				}
 				console.log(godzina + ":" + minuta + " " + czas)
 			},1000)
-			$(".container").load("villagers.html");
 		});
 		
 	</script>
