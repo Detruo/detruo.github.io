@@ -14,20 +14,21 @@ body, html{
 	background-size: cover;
 }
 
-table{
-	height: 80%;
-	width: 70%;
-	margin: 0;
+.content{
+	height: 100%;
+	width: 100%;
+	scrollbar-width: none;
+	margin: 0 auto;
 	position: absolute;
-	top: 50%;
+	top: 0;
 	left: 0;
 	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+}
+
+.tiles{
 	table-layout: fixed;
-	overflow-y: scroll
+	margin: 0 auto;
+	width: 70%;
 }
 
 td{
@@ -51,11 +52,9 @@ td{
 	backdrop-filter: none;
 }
 
-.archiwum {
-	height: 5%;
-	font-size: 25px;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
+
+
+/* TŁA KAFELEK */
 
 .valobingo{
 	background: url("bg/valobingo.jpg");
@@ -69,15 +68,21 @@ td{
 	background: url("bg/arambingo.jpg");
 }
 
+.schedule{
+	background: url("bg/palia/villager-shedule.jpg");
+}
+
+.weeklygift{
+	background: url("bg/palia/weekly-gifts.jpg");
+}
+
 .kafelka{
+	height: 250px;
+	width: 20%;
 	background-size: auto 100%;
 	background-position: center;
 	vertical-align: bottom;
-	font-size: 4rem;
+	font-size: 3rem;
 	padding-bottom: 30px;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.wsiz{
-	height: 2%;
 }

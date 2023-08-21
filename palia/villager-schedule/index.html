@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Palia - Villager Schedule</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	
+</head>
+<body>
+	<div class="bg">.</div>
+	<div class="container">
+		<div class="content">
+			<div><span class="title">WPROWADŹ GODZINĘ Z GRY</span></div>
+			<input type="number" class="godzina zegarek" min="1" max="12" value="12">
+			<span class="dwukropek">:</span>
+			<input type="number" class="minuta zegarek" min="00" max="59" value="00">
+			<span class="zegarek ampm" onclick="ampm()" style="font-weight: bold;">AM</span>
+			<div><button class="submit">ZATWIERDŹ</button></div>
+		</div>
+	</div>
+	
+	<script>
+		function ampm(){
+			if ($(".ampm").html() == "AM") $(".ampm").html("PM"); else $(".ampm").html("AM");
+		}
+		
+		
+		$(".minuta").on("change", function(){
+			console.log($(".minuta").val());
+			if ($(".minuta").val() <= 9) $(".minuta").val("0" + $(".minuta").val());
+		});
+		
+		$(".submit").on("click", function(){
+			$(".content").load("villagers.html");
+		});
+	</script>
+</body>
+
+</html>
