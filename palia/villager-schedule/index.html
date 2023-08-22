@@ -24,43 +24,9 @@
 		</div>
 	</div>
 	
-	<script>
-		function ampm(){
-			if ($(".ampm").html() == "AM") $(".ampm").html("PM"); else $(".ampm").html("AM");
-		}
-		
-		
-		$(".minuta").on("change", function(){
-			console.log($(".minuta").val());
-			if ($(".minuta").val() <= 9) $(".minuta").val("0" + $(".minuta").val());
-		});
-		
-		$(".submit").on("click", function(){
-			var godzina = $(".godzina").val();
-			var minuta = $(".minuta").val();
-			var czas = $(".ampm").html();
-			$(".container").load("villagers.html");
-			setInterval(function(){
-				if(typeof(godzina) != "undefined") $(".godz").html(parseInt(godzina));
-				if(typeof(minuta) != "undefined") $(".min").html(parseInt(minuta));
-				if(typeof(czas) != "undefined") $(".czas").html(czas);;
-				
-				parseInt(minuta) += 1
-				
-				if (parseInt(minuta) == 60){
-					parseInt(minuta) = 00;
-					parseInt(godzina) += 1;
-				}
-				if (parseInt(godzina) == 13){
-					parseInt(godzina) = 1;
-					if (czas = "AM") czas = "PM"
-					else czas = "AM";
-				}
-				console.log(godzina + ":" + minuta + " " + czas)
-			},1000)
-		});
-		
-	</script>
+	
+	<script src="js/random.js"></script>
+	<script src="js/villagertimes.js"></script>
 </body>
 
 </html>
