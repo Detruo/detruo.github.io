@@ -1,0 +1,589 @@
+{
+	"Villagers": [
+		{
+			"Ashura": {
+				"Weekly": [
+					"Sweet Leaf",
+					"Acorn",
+					"Flow-Infused Plank",
+					"Trout Dinner"
+				],
+				"Loves": [],
+				"Likes": [
+					"Akwinduu Chapaa",
+					"Apple",
+					"Apple Jam",
+					"Apple Pie",
+					"Bacon-Stuffed Mushrooms",
+					"Blueberry",
+					"Blueberry Pie",
+					"Bouillabaisse",
+					"Briar Daisy",
+					"Brightshroom",
+					"Chapaa Meat",
+					"Crystal Lake Lotus",
+					"Dragons Beard Peat",
+					"Emerald Carpet Moss",
+					"Fish Stew",
+					"Glass Bulb",
+					"Grilled Fish",
+					"Hearty Vegetable Soup",
+					"Loaded Potato Soup",
+					"Macaron",
+					"Meaty Stir Fry",
+					"Pickled Potatoes",
+					"Potato",
+					"Ramen",
+					"Sernuk Meat",
+					"Sernuk Noodle Stew",
+					"Shell",
+					"Spice Sprouts",
+					"Steak Dinner",
+					"Sundrop Lily"
+				]
+			},
+			
+			"Auni": {
+				"Weekly": [
+					"Unopened Oyster",
+					"Garden Mantis",
+					"Stripeshell Snail",
+					"Apple Pie"
+				],
+				"Loves": [
+					"Firebreathing Dragonfly",
+					"Apple Pie"
+				],
+				"Likes": [
+					"Bahari Bee",
+					"Bahari Crab",
+					"Brushtail Dragonfly",
+					"Common Blue Butterfly",
+					"Macaron",
+					"Proudhorned Stag Beetle",
+					"Silk Thread",
+					"Sneaky Smoke Bomb"
+				]
+			},
+			
+			"Badruu": {
+				"Weekly": [
+					"Carrot",
+					"WeedBlock Fertilizer",
+					"Loaded Potato Soup",
+					"Azure Stonehopper"
+				],
+				"Loves": [
+					"Blueberry Bush Seed",
+					"Apple Tree Seed"
+				],
+				"Likes": [
+					"Acorn",
+					"Akwinduu Chapaa",
+					"Apple",
+					"Bacon-Stuffed Mushrooms",
+					"Cream of Tomato Soup",
+					"Grilled Oyster",
+					"Loaded Potato Soup",
+					"Macaron",
+					"Pearl",
+					"QualityUp Fertilizer",
+					"Ramen",
+					"Rice",
+					"Steak Dinner"
+				]
+			},
+			
+			"Caleri": {
+				"Weekly": [
+					"Sundrop Lily",
+					"Glass Bulb",
+					"Blueberry Jam",
+					"Dari Cloves"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple Jam",
+					"Chapaa Fur",
+					"Fabric",
+					"Leather",
+					"Macaron",
+					"Pearl",
+					"Pickled Potatoes",
+					"Sernuk Hide",
+					"Spotted Chapaa Tail"
+				]
+			},
+			
+			"Chayne": {
+				"Weekly": [
+					"Carrot Seed",
+					"Apple Jam",
+					"Heat Root",
+					"Palian Onion Soup"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple",
+					"Bacon-Stuffed Mushrooms",
+					"Briar Daisy",
+					"Crystal Lake Lotus",
+					"Emerald Carpet Moss",
+					"Dragons Beard Peat",
+					"Knapweed",
+					"Loaded Potato Soup",
+					"Macaron",
+					"Onion",
+					"Pickled Potatoes",
+					"Shell",
+					"Silk Thread",
+					"Spice Sprouts",
+					"Sundrop Lily",
+					"Unopened Oyster"
+				]
+			},
+			
+			"Delaila": {
+				"Weekly": [
+					"Rainbow Trout",
+					"QualityUp Fertilizer",
+					"Blueberry",
+					"Giant Goldfish"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple",
+					"Chapaa Meat",
+					"Crystal Lake Lotus",
+					"Macaron",
+					"Onion",
+					"Potato",
+					"Sernuk Meat",
+					"Spice Sprouts"
+				]
+			},
+			
+			"Einar": {
+				"Weekly": [
+					"Bahari Crab",
+					"Spineshell Crab",
+					"Fathead Minnow",
+					"Stormray"
+				],
+				"Loves": [],
+				"Likes": [
+					"Fish",
+					"Apple",
+					"Ceramic",
+					"Copper Bar",
+					"Stone Brick",
+					"Waterlogged Boot"
+				]
+			},
+			
+			"Elouisa": {
+				"Weekly": [
+					"Unopened Oyster",
+					"Proudhorned Stag Beetle",
+					"Scarlet Koi",
+					"Cloudfish"
+				],
+				"Loves": [],
+				"Likes": [
+					"Albino Eel",
+					"Alligator Gar",
+					"Bahari Bream",
+					"Briar Daisy",
+					"Chapaa Fur",
+					"Common Blue Butterfly",
+					"Fabric",
+					"Leather",
+					"Sundrop Lily",
+					"Wagon Wheel",
+					"Waterlogged Boot"
+				]
+			},
+			
+			"Eshe": {
+				"Weekly": [
+					"Grilled Oyster",
+					"Samara",
+					"Silver Bar",
+					"Akwinduu Chapaa"
+				],
+				"Loves": [],
+				"Likes": [
+					"Akwinduu Chapaa",
+					"Celebration Cake",
+					"Chapaa Masala",
+					"Copper Bar",
+					"Gold Bar",
+					"Grilled Oyster",
+					"Pearl",
+					"Silk Thread"
+				]
+			},
+			
+			"Hassian": {
+				"Weekly": [
+					"Plant Fiber",
+					"Brightshroom",
+					"Azure Chapaa Tail",
+					"Dispel Arrow"
+				],
+				"Loves": [],
+				"Likes": [
+					"Albino Eel",
+					"Akwinduu Chapaa",
+					"Alligator Gar",
+					"Apple",
+					"Bacon-Stuffed Mushrooms",
+					"Chapaa Fur",
+					"Copper Bar",
+					"Dispel Arrow",
+					"Fabric",
+					"Fine Arrow",
+					"Grilled Meat",
+					"Makeshift Arrow",
+					"Ramen",
+					"Sernuk Antlers",
+					"Sernuk Hide",
+					"Silk Thread",
+					"Slowdown Arrow",
+					"Spotted Chapaa Tail",
+					"Standard Arrow"
+				]
+			},
+			
+			"Hekla": {
+				"Weekly": [
+					"Grilled Mushroom",
+					"Brightshroom",
+					"Black Sea Bass",
+					"Enchanted Pupfish"
+				],
+				"Loves": [],
+				"Likes": [
+					"Acorn",
+					"Brightshroom",
+					"Copper Bar",
+					"Copper Ore",
+					"Iron Bar",
+					"Iron Ore",
+					"Pinecone",
+					"Silk Thread",
+					"Silk"
+				]
+			},
+			
+			"Hodari": {
+				"Weekly": [
+					"Paper Lantern Bug",
+					"Elder Sernuk Antlers",
+					"Proudhorn Sernuk Antlers",
+					"Steak Dinner"
+				],
+				"Loves": [],
+				"Likes": [
+					"Acorn",
+					"Bacon-Stuffed Mushrooms",
+					"Chapaa Fur",
+					"Chapaa Meat",
+					"Copper Bar",
+					"Copper Ore",
+					"Grilled Meat",
+					"Fabric",
+					"Meaty Stir Fry",
+					"Iron Ore",
+					"Leather",
+					"Sernuk Meat",
+					"Silk Thread",
+					"Palium Ore"
+				]
+			},
+			
+			"Jel": {
+				"Weekly": [
+					"Umbran Carp",
+					"Freshwater Eel",
+					"Pearl",
+					"Green Pearl"
+				],
+				"Loves": [],
+				"Likes": [
+					"Albino Eel",
+					"Alligator Gar",
+					"Ancient Amber Beetle",
+					"Bat Ray",
+					"Briar Daisy",
+					"Chapaa Fur",
+					"Crystal Lake Lotus",
+					"Fabric",
+					"Garden Leafhopper",
+					"Kilima Catfish",
+					"Leather",
+					"Proudhorned Stag Beetle",
+					"Sernuk Antlers",
+					"Sernuk Hide",
+					"Sundrop Lily"
+				]
+			},
+			
+			"Jina": {
+				"Weekly": [
+					"Flint",
+					"Cotton Seed",
+					"Radiant Sunfish",
+					"Cream of Mushroom Soup"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple Jam",
+					"Bacon-Stuffed Mushrooms",
+					"Brightshroom",
+					"Blueberry Jam",
+					"Green Pearl",
+					"Grilled Mushroom",
+					"Mountain Morel",
+					"Pearl",
+					"Pickled Potatoes"
+				]
+			},
+			
+			"Kenli": {
+				"Weekly": [
+					"Grilled Oyster",
+					"Striped Chapaa Tail",
+					"Steak Dinner",
+					"Meaty Stir Fry"
+				],
+				"Loves": [],
+				"Likes": [
+					"Akwinduu Chapaa",
+					"Apple",
+					"Bacon-Stuffed Mushrooms",
+					"Briar Daisy",
+					"Copper Bar",
+					"Crystal Lake Lotus",
+					"Grilled Meat",
+					"HarvestBoost Fertilizer",
+					"Meaty Stir Fry",
+					"Ramen",
+					"Steak Dinner",
+					"Sundrop Lily",
+					"Tomato"
+				]
+			},
+			
+			"Kenyatta": {
+				"Weekly": [
+					"Wild Garlic",
+					"Elder Sernuk Antlers",
+					"Brighteye Butterfly",
+					"Crimson Fangtooth"
+				],
+				"Loves": [],
+				"Likes": [
+					"Akwinduu Chapaa",
+					"Albino Eel",
+					"Bouillabaisse",
+					"Briar Daisy",
+					"Chapaa Fur",
+					"Chapaa Masala",
+					"Dispel Arrow",
+					"Fabric",
+					"HarvestBoost Fertilizer",
+					"Knapweed",
+					"Makeshift Arrow",
+					"Pearl",
+					"Purple Roctail Firework",
+					"Sernuk Hide",
+					"Sernuk Antlers",
+					"Silk",
+					"Silk Thread",
+					"Standard Arrow"
+				]
+			},
+			
+			"Najuma": {
+				"Weekly": [
+					"Knapweed",
+					"Copper Bar",
+					"Iron Ore",
+					"Silver Bar"
+				],
+				"Loves": [],
+				"Likes": [
+					"Albino Eel",
+					"Alligator Gar",
+					"Bahari Pike",
+					"Bat Ray",
+					"Coral",
+					"HarvestBoost Fertilizer",
+					"Mudminnow",
+					"Oily Anchovy",
+					"Pearl",
+					"Palium Ore",
+					"Sardine",
+					"Shell",
+					"Silver Ore",
+					"SpeedyGro Fertilizer",
+					"Tomato"
+				]
+			},
+			
+			"Naio": {
+				"Weekly": [
+					"Stone Brick",
+					"QualityUp Fertilizer",
+					"Stalking Catfish",
+					"Steak Dinner"
+				],
+				"Loves": [],
+				"Likes": [
+					"Acorn",
+					"Apple",
+					"Chapaa Fur",
+					"Chapaa Meat",
+					"Copper Bar",
+					"Fabric",
+					"Sernuk Antlers",
+					"Sernuk Hide",
+					"Sernuk Meat",
+					"Trout Dinner"
+				]
+			},
+			
+			"Reth": {
+				"Weekly": [
+					"Yellow Perch",
+					"Creamy Carrot Soup",
+					"Cream of Tomato Soup",
+					"Dari Cloves"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple Jam",
+					"Akwinduu Chapaa",
+					"Albino Eel",
+					"Alligator Gar",
+					"Apple",
+					"Bacon-Stuffed Mushrooms",
+					"Cantankerous Koi",
+					"Chapaa Meat",
+					"Loaded Potato Soup",
+					"Onion",
+					"Potato",
+					"Meaty Stir Fry",
+					"Ramen",
+					"Smallmouth Bass",
+					"Steak Dinner",
+					"Sweet Leaf",
+					"Wild Garlic"
+				]
+			},
+			
+			"Sifuu": {
+				"Weekly": [
+					"Stone Brick",
+					"Elder Sernuk Antlers",
+					"Silver Ore",
+					"Dispel Arrow"
+				],
+				"Loves": [],
+				"Likes": [
+					"Akwinduu Chapaa",
+					"Bacon-Stuffed Mushrooms",
+					"Ceramic",
+					"Chapaa Fur",
+					"Chapaa Meat",
+					"Copper Bar",
+					"Cream of Tomato Soup",
+					"Fabric",
+					"Fine Arrow",
+					"Leather",
+					"Makeshift Arrow",
+					"Ramen",
+					"Sernuk Antlers",
+					"Sernuk Meat",
+					"Silk",
+					"Standard Arrow",
+					"Steak Dinner",
+					"Trout Dinner"
+				]
+			},
+			
+			"Tamala": {
+				"Weekly": [
+					"Kilima Night Moth",
+					"Garden Millipede",
+					"Shimmerfin",
+					"Long Nosed Unicorn Fish"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple",
+					"Chapaa Fur",
+					"Copper Bar",
+					"Copper Ore",
+					"Elder Sernuk Antlers",
+					"Fabric",
+					"Iron Ore",
+					"Sernuk Antlers",
+					"Sernuk Hide",
+					"Spotted Chapaa Tail"
+				]
+			},
+			
+			"Tish": {
+				"Weekly": [
+					"Shell",
+					"Heartwood Plank",
+					"Silk Thread",
+					"Blueberry Pie"
+				],
+				"Loves": [],
+				"Likes": [
+					"Apple",
+					"Apple Jam",
+					"Apple Pie",
+					"Briar Daisy",
+					"Chapaa Fur",
+					"Copper Bar",
+					"Elder Sernuk Antlers",
+					"Fabric",
+					"Leather",
+					"Pearl",
+					"Proudhorn Sernuk Antlers",
+					"Sernuk Antlers",
+					"Sernuk Hide",
+					"Silk",
+					"Silk Thread",
+					"Sundrop Lily",
+					"Treasure Chests"
+				]
+			},
+			
+			"Zeki": {
+				"Weekly": [
+					"Unopened Oyster",
+					"Fish Stew",
+					"Fried Catfish Dinner",
+					"Dari Cloves"
+				],
+				"Loves": [],
+				"Likes": [
+					"Albino Eel",
+					"Copper Bar",
+					"Copper Ore",
+					"Gillyfin",
+					"Gold Ore",
+					"Kilima Greyling",
+					"Mudminnow",
+					"Pearl",
+					"Silver Ore"
+				]
+			}
+		}
+	]
+}
