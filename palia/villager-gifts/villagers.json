@@ -3,9 +3,9 @@
 		{
 			"Ashura": {
 				"Weekly": [
-					"Sweet Leaf",
-					"Acorn",
-					"Flow-Infused Plank",
+					"Silver Salmon",
+					"Juniper Seed",
+					"Unknown",
 					"Trout Dinner"
 				],
 				"Loves": [],
@@ -45,9 +45,9 @@
 			
 			"Auni": {
 				"Weekly": [
-					"Unopened Oyster",
-					"Garden Mantis",
-					"Stripeshell Snail",
+					"Common Blue Butterfly",
+					"Bahari Bee",
+					"Blueberry",
 					"Apple Pie"
 				],
 				"Loves": [
@@ -68,9 +68,9 @@
 			
 			"Badruu": {
 				"Weekly": [
-					"Carrot",
-					"WeedBlock Fertilizer",
-					"Loaded Potato Soup",
+					"Tomato Plant Seed",
+					"Rice",
+					"Blueberry Bush Seed",
 					"Azure Stonehopper"
 				],
 				"Loves": [
@@ -84,6 +84,7 @@
 					"Bacon-Stuffed Mushrooms",
 					"Cream of Tomato Soup",
 					"Grilled Oyster",
+					"HarvestBoost Fertilizer",
 					"Loaded Potato Soup",
 					"Macaron",
 					"Pearl",
@@ -96,10 +97,10 @@
 			
 			"Caleri": {
 				"Weekly": [
-					"Sundrop Lily",
-					"Glass Bulb",
-					"Blueberry Jam",
-					"Dari Cloves"
+					"Knapweed",
+					"Silk",
+					"Cream of Tomato Soup",
+					"Bouillabaisse"
 				],
 				"Loves": [],
 				"Likes": [
@@ -117,10 +118,10 @@
 			
 			"Chayne": {
 				"Weekly": [
-					"Carrot Seed",
-					"Apple Jam",
-					"Heat Root",
-					"Palian Onion Soup"
+					"Knapweed",
+					"Wheat",
+					"Apple",
+					"Green Pearl"
 				],
 				"Loves": [],
 				"Likes": [
@@ -145,10 +146,10 @@
 			
 			"Delaila": {
 				"Weekly": [
-					"Rainbow Trout",
-					"QualityUp Fertilizer",
-					"Blueberry",
-					"Giant Goldfish"
+					"Bahari Crab",
+					"HydratePro Fertilizer",
+					"Vampire Crab",
+					"Gold Bar"
 				],
 				"Loves": [],
 				"Likes": [
@@ -159,16 +160,17 @@
 					"Onion",
 					"Potato",
 					"Sernuk Meat",
-					"Spice Sprouts"
+					"Spice Sprouts",
+					"Sweet Leaf"
 				]
 			},
 			
 			"Einar": {
 				"Weekly": [
-					"Bahari Crab",
-					"Spineshell Crab",
-					"Fathead Minnow",
-					"Stormray"
+					"Eyeless Minnow",
+					"Fairy Carp",
+					"Glow Worm",
+					"Blue Spotted Ray"
 				],
 				"Loves": [],
 				"Likes": [
@@ -176,6 +178,7 @@
 					"Apple",
 					"Ceramic",
 					"Copper Bar",
+					"Copper Ore",
 					"Stone Brick",
 					"Waterlogged Boot"
 				]
@@ -183,16 +186,17 @@
 			
 			"Elouisa": {
 				"Weekly": [
-					"Unopened Oyster",
-					"Proudhorned Stag Beetle",
-					"Scarlet Koi",
-					"Cloudfish"
+					"Ship Fragments",
+					"Bahari Bee",
+					"Raspberry Beetle",
+					"Ancient Amber Beetle"
 				],
 				"Loves": [],
 				"Likes": [
 					"Albino Eel",
 					"Alligator Gar",
 					"Bahari Bream",
+					"Beluga Sturgeon",
 					"Briar Daisy",
 					"Chapaa Fur",
 					"Common Blue Butterfly",
@@ -206,10 +210,10 @@
 			
 			"Eshe": {
 				"Weekly": [
-					"Grilled Oyster",
-					"Samara",
+					"Leather",
+					"Fish Stew",
 					"Silver Bar",
-					"Akwinduu Chapaa"
+					"Gold Ore"
 				],
 				"Loves": [],
 				"Likes": [
@@ -226,9 +230,9 @@
 			
 			"Hassian": {
 				"Weekly": [
-					"Plant Fiber",
-					"Brightshroom",
-					"Azure Chapaa Tail",
+					"Grilled Meat",
+					"Cotton",
+					"Iron Ore",
 					"Dispel Arrow"
 				],
 				"Loves": [],
@@ -238,12 +242,14 @@
 					"Alligator Gar",
 					"Apple",
 					"Bacon-Stuffed Mushrooms",
+					"Beluga Sturgeon",
 					"Chapaa Fur",
 					"Copper Bar",
 					"Dispel Arrow",
 					"Fabric",
 					"Fine Arrow",
 					"Grilled Meat",
+					"Leather",
 					"Makeshift Arrow",
 					"Ramen",
 					"Sernuk Antlers",
@@ -257,10 +263,10 @@
 			
 			"Hekla": {
 				"Weekly": [
-					"Grilled Mushroom",
-					"Brightshroom",
-					"Black Sea Bass",
-					"Enchanted Pupfish"
+					"Sundrop Lily",
+					"Bahari Bream",
+					"Ramen",
+					"Green Pearl"
 				],
 				"Loves": [],
 				"Likes": [
@@ -268,20 +274,22 @@
 					"Brightshroom",
 					"Copper Bar",
 					"Copper Ore",
+					"HarvestBoost Fertilizer",
 					"Iron Bar",
 					"Iron Ore",
 					"Pinecone",
 					"Silk Thread",
+					"Juniper Seed",
 					"Silk"
 				]
 			},
 			
 			"Hodari": {
 				"Weekly": [
-					"Paper Lantern Bug",
-					"Elder Sernuk Antlers",
-					"Proudhorn Sernuk Antlers",
-					"Steak Dinner"
+					"Copper Ore",
+					"Copper Bar",
+					"Blue Marlin",
+					"Firebreathing Dragonfly"
 				],
 				"Loves": [],
 				"Likes": [
@@ -291,8 +299,9 @@
 					"Chapaa Meat",
 					"Copper Bar",
 					"Copper Ore",
-					"Grilled Meat",
 					"Fabric",
+					"Grilled Meat",
+					"HarvestBoost Fertilizer",
 					"Meaty Stir Fry",
 					"Iron Ore",
 					"Leather",
@@ -304,10 +313,10 @@
 			
 			"Jel": {
 				"Weekly": [
-					"Umbran Carp",
-					"Freshwater Eel",
+					"Waterlogged Boot",
+					"Lunar Fairy Moth",
 					"Pearl",
-					"Green Pearl"
+					"Midnight Paddlefish"
 				],
 				"Loves": [],
 				"Likes": [
@@ -315,6 +324,7 @@
 					"Alligator Gar",
 					"Ancient Amber Beetle",
 					"Bat Ray",
+					"Beluga Sturgeon",
 					"Briar Daisy",
 					"Chapaa Fur",
 					"Crystal Lake Lotus",
@@ -331,9 +341,9 @@
 			
 			"Jina": {
 				"Weekly": [
-					"Flint",
-					"Cotton Seed",
-					"Radiant Sunfish",
+					"Wagon Wheel",
+					"Glass Pane",
+					"Shimmerfin",
 					"Cream of Mushroom Soup"
 				],
 				"Loves": [],
@@ -352,10 +362,10 @@
 			
 			"Kenli": {
 				"Weekly": [
-					"Grilled Oyster",
-					"Striped Chapaa Tail",
-					"Steak Dinner",
-					"Meaty Stir Fry"
+					"Wagon Wheel",
+					"Fish Stew",
+					"Princess Ladybug",
+					"Palian Onion Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -377,9 +387,9 @@
 			
 			"Kenyatta": {
 				"Weekly": [
-					"Wild Garlic",
-					"Elder Sernuk Antlers",
-					"Brighteye Butterfly",
+					"Leather",
+					"Cutthroat Trout",
+					"Pinecone",
 					"Crimson Fangtooth"
 				],
 				"Loves": [],
@@ -392,8 +402,10 @@
 					"Chapaa Masala",
 					"Dispel Arrow",
 					"Fabric",
+					"Fine Arrow",
 					"HarvestBoost Fertilizer",
 					"Knapweed",
+					"Leather",
 					"Makeshift Arrow",
 					"Pearl",
 					"Purple Roctail Firework",
@@ -407,9 +419,9 @@
 			
 			"Najuma": {
 				"Weekly": [
-					"Knapweed",
+					"Tomato",
 					"Copper Bar",
-					"Iron Ore",
+					"Iron Bar",
 					"Silver Bar"
 				],
 				"Loves": [],
@@ -418,6 +430,8 @@
 					"Alligator Gar",
 					"Bahari Pike",
 					"Bat Ray",
+					"Beluga Sturgeon",
+					"Copper Ore",
 					"Coral",
 					"HarvestBoost Fertilizer",
 					"Mudminnow",
@@ -434,8 +448,8 @@
 			
 			"Naio": {
 				"Weekly": [
-					"Stone Brick",
-					"QualityUp Fertilizer",
+					"Wagon Wheel",
+					"SpeedyGro Fertilizer",
 					"Stalking Catfish",
 					"Steak Dinner"
 				],
@@ -446,7 +460,10 @@
 					"Chapaa Fur",
 					"Chapaa Meat",
 					"Copper Bar",
+					"Copper Ore",
 					"Fabric",
+					"HarvestBoost Fertilizer",
+					"Leather",
 					"Sernuk Antlers",
 					"Sernuk Hide",
 					"Sernuk Meat",
@@ -456,10 +473,10 @@
 			
 			"Reth": {
 				"Weekly": [
-					"Yellow Perch",
+					"Sweet Leaf",
 					"Creamy Carrot Soup",
-					"Cream of Tomato Soup",
-					"Dari Cloves"
+					"Loaded Potato Soup",
+					"Cream of Mushroom Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -469,6 +486,7 @@
 					"Alligator Gar",
 					"Apple",
 					"Bacon-Stuffed Mushrooms",
+					"Beluga Sturgeon",
 					"Cantankerous Koi",
 					"Chapaa Meat",
 					"Loaded Potato Soup",
@@ -485,8 +503,8 @@
 			
 			"Sifuu": {
 				"Weekly": [
-					"Stone Brick",
-					"Elder Sernuk Antlers",
+					"Unknown",
+					"Standard Arrow",
 					"Silver Ore",
 					"Dispel Arrow"
 				],
@@ -498,11 +516,13 @@
 					"Chapaa Fur",
 					"Chapaa Meat",
 					"Copper Bar",
+					"Copper Ore",
 					"Cream of Tomato Soup",
 					"Fabric",
 					"Fine Arrow",
 					"Leather",
 					"Makeshift Arrow",
+					"Dispel Arrow",
 					"Ramen",
 					"Sernuk Antlers",
 					"Sernuk Meat",
@@ -515,10 +535,10 @@
 			
 			"Tamala": {
 				"Weekly": [
-					"Kilima Night Moth",
-					"Garden Millipede",
+					"Chapaa Fur",
+					"Lunar Fairy Moth",
 					"Shimmerfin",
-					"Long Nosed Unicorn Fish"
+					"Green Pearl"
 				],
 				"Loves": [],
 				"Likes": [
@@ -528,7 +548,9 @@
 					"Copper Ore",
 					"Elder Sernuk Antlers",
 					"Fabric",
+					"HarvestBoost Fertilizer",
 					"Iron Ore",
+					"Leather",
 					"Sernuk Antlers",
 					"Sernuk Hide",
 					"Spotted Chapaa Tail"
@@ -537,9 +559,9 @@
 			
 			"Tish": {
 				"Weekly": [
-					"Shell",
+					"Clay",
 					"Heartwood Plank",
-					"Silk Thread",
+					"Pearl",
 					"Blueberry Pie"
 				],
 				"Loves": [],
@@ -550,6 +572,7 @@
 					"Briar Daisy",
 					"Chapaa Fur",
 					"Copper Bar",
+					"Copper Ore",
 					"Elder Sernuk Antlers",
 					"Fabric",
 					"Leather",
@@ -566,14 +589,15 @@
 			
 			"Zeki": {
 				"Weekly": [
-					"Unopened Oyster",
-					"Fish Stew",
-					"Fried Catfish Dinner",
+					"Silvery Minnow",
+					"Golden Salmon",
+					"Trout Dinner",
 					"Dari Cloves"
 				],
 				"Loves": [],
 				"Likes": [
 					"Albino Eel",
+					"Beluga Sturgeon",
 					"Copper Bar",
 					"Copper Ore",
 					"Gillyfin",

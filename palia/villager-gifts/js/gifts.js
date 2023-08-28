@@ -1,8 +1,9 @@
-function picture(items, loves){
+function picture(items, loves, name, weekly){
 	var zdjecia = "";
 	for (var i=0;i<items.length;i++){
-		if(!loves) zdjecia += "<img title='" + items[i] + "' class='i_photo' src='img/items/" + items[i] + ".png'/>";
-		else zdjecia += "<img title='" + items[i] + "' class='i_photo loves' src='img/items/" + items[i] + ".png'/>";
+		if (weekly) zdjecia += "<img title='" + items[i] + "' class='i_photo' mode='" + name + "-weekly-" + i + "' src='img/items/" + items[i] + ".png'/>"
+		else if (!loves) zdjecia += "<img title='" + items[i] + "' class='i_photo' mode='" + name + "-normal-" + i + "' src='img/items/" + items[i] + ".png'/>";
+		else zdjecia += "<img title='" + items[i] + "' class='i_photo loves' mode='" + name + "-normal-" + i + "' src='img/items/" + items[i] + ".png'/>";
 	}
 	return zdjecia;
 }
@@ -24,8 +25,8 @@ $.ajax({
 					"<tr>" + 
 					"<td><img class='v_photo' src='img/villagers/" + name + "-Avatar.jpg'</td>" +
 					"<td>" + name + "</td>" +
-					"<td> " + picture(weekly) + " </td>" +
-					"<td> " + picture(loves, 1) + picture(likes) + " </td>" +
+					"<td> " + picture(weekly, 0, name, 1) + " </td>" +
+					"<td> " + picture(loves, 1, name, 0) + picture(likes, 0, name, 0) + " </td>" +
 					"</tr>"
 				);
 			}			
@@ -37,8 +38,16 @@ $.ajax({
 });
 
 $("body").on("click", ".i_photo", function(){
-	if($(this).hasClass("highlighted")) $(this).removeClass("highlighted");
-	else $(this).addClass("highlighted");
+	if($(this).hasClass("highlighted")){
+		var item = $(this).attr("mode");
+		$(this).removeClass("highlighted");
+		Cookies.remove(item);
+	}
+	else{
+		var item = $(this).attr("mode");
+		$(this).addClass("highlighted");
+		Cookies.set(item, true);
+	}
 })
 
 $("body").on("contextmenu", ".i_photo", function(){
@@ -46,4 +55,25 @@ $("body").on("contextmenu", ".i_photo", function(){
 	pageName.replace(" ", "-");
 	
 	window.open("https://palia.wiki.gg/wiki/" + pageName);
+})
+
+function ciasteczka(){
+	$.each($(".i_photo"), function(){
+		var item = $(this).attr("mode");
+		if (Cookies.get(item) == "true") $(this).addClass("highlighted");
+	})
+}
+
+function wyczyscCiasteczka(){
+	$.each($(".i_photo"), function(){
+		var item = $(this).attr("mode");
+		if (Cookies.get(item) == "true"){
+			Cookies.remove(item);
+			$(this).removeClass("highlighted");
+		}
+	})
+}
+
+$(document).ready(function(){
+	setTimeout(function(){ciasteczka()}, 200);
 })

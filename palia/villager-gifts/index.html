@@ -9,17 +9,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
 	
 </head>
 <body>
 	<div class="bg">.</div>
 	<div class="container">
 		<h1>
-		Villager Gifts<br>
-		<span>LPM - podświetlenie</span>
-		<span>PPM - Otwiera wiki</span>
-		<span>Czerwona obwódka - Loved gift</span>
+		Villager Gifts
 		</h1>
+		<div style="text-align:center;">
+			<span>LPM - podświetlenie</span>
+			<span>PPM - Otwiera wiki</span>
+			<span>Czerwona obwódka - Loved gift</span>
+		</div>
+		<div style="text-align:center; margin-top: 20px;">
+			<button onclick="wyczyscCiasteczka()">Wyczyść wszystkie zaznaczenia</button>
+			<button onclick="ciasteczka()">Odśwież ciasteczka</button>
+		</div>
 		<div class="content">
 			<table class="giftstable table">
 				<tr>
