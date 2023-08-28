@@ -75,5 +75,5 @@ function wyczyscCiasteczka(){
 }
 
 $(document).ready(function(){
-	setTimeout(function(){ciasteczka()}, 200);
+	setTimeout(function(){ciasteczka()}, 190);
 })
