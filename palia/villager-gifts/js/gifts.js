@@ -46,7 +46,7 @@ $("body").on("click", ".i_photo", function(){
 	else{
 		var item = $(this).attr("mode");
 		$(this).addClass("highlighted");
-		Cookies.set(item, true);
+		Cookies.set(item, true { expires: 7 });
 	}
 })
 
