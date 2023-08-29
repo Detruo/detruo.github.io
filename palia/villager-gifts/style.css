@@ -32,7 +32,7 @@ body, html{
 
 .content{
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 	height: 80%;
 	text-align: center;
 	position: absolute;
@@ -60,9 +60,10 @@ span{
 }
 
 .giftstable{
-	width: 100%;
+	width: 80%;
 	font-size: 28px;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 td{
