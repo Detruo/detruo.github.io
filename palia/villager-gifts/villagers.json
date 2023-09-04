@@ -5,8 +5,8 @@
 				"Weekly": [
 					"Sweet Leaf",
 					"Samara",
-					"Unknown",
-					"Unknown"
+					"Fish Stew",
+					"Chapaa Masala"
 				],
 				"Loves": [],
 				"Likes": [
@@ -272,7 +272,7 @@
 					"Spotted Stinkbug",
 					"Inky Dragonfly",
 					"Dragons Beard Peat",
-					"Unknown"
+					"Flametongue Ray"
 				],
 				"Loves": [],
 				"Likes": [
@@ -422,7 +422,7 @@
 					"Leather",
 					"Heartwood",
 					"Iron Bar",
-					"Unknown"
+					"Steak Dinner"
 				],
 				"Loves": [],
 				"Likes": [
@@ -741,9 +741,9 @@
 			"Reth": {
 				"Weekly": [
 					"Carrot",
-					"Unknown",
+					"Sernuk Noodle Stew",
 					"Loaded Potato Soup",
-					"Unknown"
+					"Cream of Mushroom Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -925,9 +925,9 @@
 			
 			"Zeki": {
 				"Weekly": [
-					"Unknown",
+					"Grilled Fish",
 					"Fish Stew",
-					"Unknown",
+					"Trout Dinner",
 					"Gold Bar"
 				],
 				"Loves": [],
