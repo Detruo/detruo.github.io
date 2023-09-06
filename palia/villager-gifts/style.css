@@ -108,7 +108,92 @@ td{
 	outline-offset: -4px;
 }
 
+.completed{
+	outline: 4px solid #c02eff;
+	outline-offset: -4px;
+}
+
 .v_photo{
 	width: 80px;
 	border-radius: 20%;
+}
+
+.compl_button {
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 14px;
+  height: 43px;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 110px;
+  touch-action: manipulation;
+}
+
+.compl_button:active {
+  border-bottom-color: #a2a6ac;
+}
+
+.compl_button:active:hover {
+  border-bottom-color: #a2a6ac;
+}
+
+.compl_button:hover {
+  border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.system_button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  height: 65px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  width: 200px;
+  z-index: 9;
+  border: 0;
+}
+
+.system_button:hover {
+  background: #00bd68;
+}
+
+.system_button_clear{
+	position: absolute;
+	top: 0;
+	right: 0 ;
+}
+
+.system_button_refresh{
+	position: absolute;
+	top: 70px;
+	right: 0 ;
 }
