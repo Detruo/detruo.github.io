@@ -3,10 +3,10 @@
 		{
 			"Ashura": {
 				"Weekly": [
-					"Sweet Leaf",
-					"Samara",
-					"Fish Stew",
-					"Chapaa Masala"
+					"Sapwood Plank",
+					"Heartwood Plank",
+					"Sernuk Noodle Stew",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -57,9 +57,9 @@
 			
 			"Auni": {
 				"Weekly": [
-					"Spotted Stinkbug",
-					"Proudhorned Stag Beetle",
-					"Spotted Mantis",
+					"Unopened Oyster",
+					"Duskwing Butterfly",
+					"Scintillating Centipede",
 					"Apple Pie"
 				],
 				"Loves": [],
@@ -78,9 +78,9 @@
 			
 			"Badruu": {
 				"Weekly": [
-					"Cotton Seed",
-					"Orange Bluegill",
-					"Apple Tree Seed",
+					"Onion Seed",
+					"Hearty Vegetable Soup",
+					"Ramen",
 					"Meaty Stir Fry"
 				],
 				"Loves": [],
@@ -131,10 +131,10 @@
 			
 			"Caleri": {
 				"Weekly": [
-					"Briar Daisy",
-					"Kilima Redfin",
-					"Cream of Tomato Soup",
-					"Hypnotic Moray"
+					"Unknown",
+					"Silk",
+					"Silk Thread",
+					"Dari Cloves"
 				],
 				"Loves": [],
 				"Likes": [
@@ -162,10 +162,10 @@
 			
 			"Chayne": {
 				"Weekly": [
-					"Potato",
-					"Samara",
-					"Blueberry",
-					"Palian Onion Soup"
+					"Onion",
+					"Hearty Vegetable Soup",
+					"Cream of Tomato Soup",
+					"Green Pearl"
 				],
 				"Loves": [],
 				"Likes": [
@@ -207,10 +207,10 @@
 			
 			"Delaila": {
 				"Weekly": [
-					"Cantankerous Koi",
-					"HydratePro Fertilizer",
-					"Stalking Catfish",
-					"Giant Goldfish"
+					"Clay",
+					"SpeedyGro Fertilizer",
+					"Apple Tree Seed",
+					"Gold Bar"
 				],
 				"Loves": [],
 				"Likes": [
@@ -240,10 +240,10 @@
 			
 			"Einar": {
 				"Weekly": [
-					"Striped Dace",
-					"Red-bellied Piranha",
-					"Flow-Infused Plank",
-					"Void Ray"
+					"Gillyfin",
+					"Garden Snail",
+					"Mottled Gobi",
+					"Cloudfish"
 				],
 				"Loves": [],
 				"Likes": [
@@ -269,10 +269,10 @@
 			
 			"Elouisa": {
 				"Weekly": [
-					"Spotted Stinkbug",
+					"Duskray",
 					"Inky Dragonfly",
-					"Dragons Beard Peat",
-					"Flametongue Ray"
+					"Thundering Eel",
+					"Fairy Mantis"
 				],
 				"Loves": [],
 				"Likes": [
@@ -302,10 +302,10 @@
 			
 			"Eshe": {
 				"Weekly": [
-					"Chapaa Fur",
-					"Juniper Seed",
-					"Akwinduu Chapaa",
-					"Bouillabaisse"
+					"Grilled Oyster",
+					"Bluefin Tuna",
+					"Silver Bar",
+					"Palian Onion Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -330,7 +330,7 @@
 				"Weekly": [
 					"Mountain Morel",
 					"Cotton",
-					"Azure Chapaa Tail",
+					"Iron Ore",
 					"Steak Dinner"
 				],
 				"Loves": [],
@@ -385,9 +385,9 @@
 			
 			"Hekla": {
 				"Weekly": [
-					"Briar Daisy",
-					"Largemouth Bass",
-					"Pinecone",
+					"Unknown",
+					"Smallmouth Bass",
+					"Pearl",
 					"Celebration Cake"
 				],
 				"Loves": [],
@@ -419,10 +419,10 @@
 			
 			"Hodari": {
 				"Weekly": [
-					"Leather",
-					"Heartwood",
-					"Iron Bar",
-					"Steak Dinner"
+					"Chapaa Fur",
+					"Flow-Infused Wood",
+					"Azure Chapaa Tail",
+					"Firebreathing Dragonfly"
 				],
 				"Loves": [],
 				"Likes": [
@@ -470,10 +470,10 @@
 			
 			"Jel": {
 				"Weekly": [
-					"Chapaa Fur",
-					"Bat Ray",
+					"Leather",
+					"Albino Eel",
 					"Azure Chapaa Tail",
-					"Midnight Paddlefish"
+					"Willow Lamprey"
 				],
 				"Loves": [],
 				"Likes": [
@@ -520,10 +520,10 @@
 			
 			"Jina": {
 				"Weekly": [
-					"Flint",
-					"Brightshroom",
+					"Wagon Wheel",
+					"Duskwing Butterfly",
 					"Shimmerfin",
-					"Celebration Cake"
+					"Apple Pie"
 				],
 				"Loves": [],
 				"Likes": [
@@ -546,10 +546,10 @@
 			
 			"Kenli": {
 				"Weekly": [
-					"Chapaa Meat",
-					"Creamy Carrot Soup",
-					"Trout Dinner",
-					"Akwinduu Chapaa"
+					"Grilled Oyster",
+					"Ramen",
+					"Sushi",
+					"Kenlis Carp"
 				],
 				"Loves": [],
 				"Likes": [
@@ -595,10 +595,10 @@
 			
 			"Kenyatta": {
 				"Weekly": [
-					"Briar Daisy",
-					"Creamy Carrot Soup",
-					"Leafstalker Mantis",
-					"Meaty Stir Fry"
+					"Sardine",
+					"Inky Dragonfly",
+					"Proudhorned Sernuk Antlers",
+					"Fairy Mantis"
 				],
 				"Loves": [],
 				"Likes": [
@@ -640,9 +640,9 @@
 			
 			"Najuma": {
 				"Weekly": [
-					"Sweet Leaf",
+					"Copper Ore",
 					"Copper Bar",
-					"Blueberry",
+					"Cream of Tomato Soup",
 					"Silver Bar"
 				],
 				"Loves": [],
@@ -687,9 +687,9 @@
 			
 			"Naio": {
 				"Weekly": [
-					"Stone Brick",
-					"Pickled Potatoes",
-					"Fried Catfish Dinner",
+					"Wagon Wheel",
+					"Kilima Catfish",
+					"Bahari Pike",
 					"Steak Dinner"
 				],
 				"Loves": [],
@@ -740,10 +740,10 @@
 			
 			"Reth": {
 				"Weekly": [
-					"Carrot",
+					"Potato",
 					"Sernuk Noodle Stew",
-					"Loaded Potato Soup",
-					"Cream of Mushroom Soup"
+					"Blueberry",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -794,10 +794,10 @@
 			
 			"Sifuu": {
 				"Weekly": [
-					"Stone Brick",
-					"Pickled Carrots",
-					"Silver Ore",
-					"Dispel Arrow"
+					"Chapaa Meat",
+					"Oily Anchovy",
+					"Cream of Tomato Soup",
+					"Slowdown Arrow"
 				],
 				"Loves": [],
 				"Likes": [
@@ -851,9 +851,9 @@
 			"Tamala": {
 				"Weekly": [
 					"Emerald Carpet Moss",
-					"Garden Millipede",
+					"Lunar Fairy Moth",
 					"Dragons Beard Peat",
-					"Ancient Amber Beetle"
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -888,9 +888,9 @@
 			
 			"Tish": {
 				"Weekly": [
-					"Sundrop Lily",
+					"Shell",
 					"Heartwood Plank",
-					"Silk Thread",
+					"Pearl",
 					"Green Pearl"
 				],
 				"Loves": [],
@@ -925,9 +925,9 @@
 			
 			"Zeki": {
 				"Weekly": [
-					"Grilled Fish",
-					"Fish Stew",
-					"Trout Dinner",
+					"Unopened Oyster",
+					"Golden Salmon",
+					"Silver Ore",
 					"Gold Bar"
 				],
 				"Loves": [],
