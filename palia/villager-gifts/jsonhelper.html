@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html tranlate="no">
+<head>
+	<meta charset="UTF-8">
+	<title>Palia - Villager Gifts</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+	
+</head>
+<body>
+	<textarea class="change" cols="200" rows="10"></textarea>
+	<button onclick="zmiana()">Aktywuj</button>
+	<p style="color: black;" class="wynik"></p>
+	
+	<script>
+		function zmiana(){
+			var tekst = $(".change").val().split('\n');
+			$(".wynik").text("");
+			for(var i=0;i<tekst.length;i++){
+				tekst[i] = tekst[i].substring(tekst[i].indexOf(".png") + 5);
+				tekst[i] = tekst[i].replace("'", "");
+				$(".wynik").append('						"' + tekst[i] + '",' + "<br>");
+			}
+		}
+	</script>
+</body>
+</html>
