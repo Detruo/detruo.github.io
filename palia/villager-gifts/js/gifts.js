@@ -14,7 +14,7 @@ $.ajax({
 	success: function(data){
 		var villagers = data.Villagers;
 		villagers.forEach(function(villager){
-			for(var i=0; i<23; i++){
+			for(var i=0; i<24; i++){
 				var name = Object.keys(villager)[i];
 				var weekly = villager[name].Weekly;
 				var loves = villager[name].Loves;
