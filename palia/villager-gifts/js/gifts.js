@@ -23,6 +23,7 @@ $.ajax({
 			
 				$("tbody").append(
 					"<tr>" + 
+					"<td><button class='hoverable daily_button " + name + "_daily_button' name='" + name + "' dailyDone='false' onclick='daily_Check(\"" + name + "\")'>Daily</button></td>" +
 					"<td><img class='v_photo " + name + "' src='img/villagers/" + name + "-Avatar.jpg' <br> <button class='compl_button " + name + "_button' onclick='complete(\"" + name + "\")' name='" + name + "' value='0'>SET AS COMPLETE</button></td>" +
 					"<td>" + name + "</td>" +
 					"<td> " + picture(weekly, 0, name, 1) + " </td>" +
@@ -59,6 +60,18 @@ $("body").on("contextmenu", ".i_photo", function(){
 
 function visibility(){
 	$(".completed").parent().parent().toggle();
+}
+
+function daily_Check(name){
+	if ($("."+name+"_daily_button").attr("dailyDone") == "false"){
+		$("."+name+"_daily_button").attr("dailyDone", "true");
+		$("."+name+"_daily_button").css("background", "#419e33");
+		Cookies.set(name+"_daily", name, { expires : 1 });
+	}else{
+		$("."+name+"_daily_button").attr("dailyDone", "false");
+		$("."+name+"_daily_button").css("background", "#f04337");
+		Cookies.remove(name+"_daily");
+	}
 }
 
 function gray(name, status){
@@ -99,6 +112,11 @@ function ciasteczka(refreshing){
 		var name = $(this).attr("name");
 		var val = $(this).attr("val");
 		if (Cookies.get(name+"_complete") == name && !refreshing) complete(name);
+	});
+	
+	$.each($(".daily_button"), function(){
+		var name = $(this).attr("name");
+		if (Cookies.get(name+"_daily") == name && !refreshing) daily_Check(name);
 	})
 }
 
