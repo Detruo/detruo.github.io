@@ -3,10 +3,10 @@
 		{
 			"Ashura": {
 				"Weekly": [
-					"Rainbow Trout",
-					"Kilima Catfish",
-					"Fried Catfish Dinner",
-					"Chapaa Masala"
+					"Sapwood Plank",
+					"Golden Salmon",
+					"Unknown",
+					"Sushi"
 				],
 				"Loves": [],
 				"Likes": [
@@ -28,10 +28,12 @@
 					"Chili Oil Dumplings",
 					"Coral",
 					"Cream of Tomato Soup",
+					"Creamy Carrot Soup",
 					"Crystal Lake Lotus",
 					"Dragons Beard Peat",
 					"Emerald Carpet Moss",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Flow-Infused Plank",
 					"Glass Bulb",
@@ -55,6 +57,8 @@
 					"Sernuk Noodle Stew",
 					"Shell",
 					"Spice Sprouts",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Steak Dinner",
 					"Sundrop Lily",
 					"Sweet Leaf",
@@ -65,9 +69,9 @@
 			
 			"Auni": {
 				"Weekly": [
-					"Common Bark Cicada",
-					"Garden Millipede",
-					"Apple",
+					"Common Field Cricket",
+					"Cerulean Cicada",
+					"Blueberry",
 					"Apple Pie"
 				],
 				"Loves": [],
@@ -88,9 +92,9 @@
 			
 			"Badruu": {
 				"Weekly": [
-					"Carrot Seed",
-					"Creamy Carrot Soup",
-					"Loaded Potato Soup",
+					"Rainbow Trout",
+					"Rice Seed",
+					"Blueberry Bush Seed",
 					"Meaty Stir Fry"
 				],
 				"Loves": [],
@@ -107,13 +111,17 @@
 					"Blueberry Jam",
 					"Blueberry Pie",
 					"Carrot",
+					"Carrot Seed",
 					"Chapaa Masala",
 					"Chapaa Onigiri",
 					"Chili Oil Dumplings",
+					"Corn Seed",
 					"Cotton",
 					"Cotton Seed",
 					"Cream of Tomato Soup",
+					"Creamy Carrot Soup",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Grilled Fish",
 					"Grilled Meat",
@@ -138,9 +146,14 @@
 					"Ramen",
 					"Reths Steak Dinner",
 					"Rice",
+					"Rice Seed",
 					"Sashimi",
 					"Silk Thread",
 					"SpeedyGro Fertilizer",
+					"Spicy Pepper",
+					"Spicy Pepper Seed",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Steak Dinner",
 					"Tomato",
 					"Trout Dinner",
@@ -152,10 +165,10 @@
 			
 			"Caleri": {
 				"Weekly": [
-					"Emerald Carpet Moss",
-					"Kilima Redfin",
+					"Grilled Oyster",
+					"Silk",
 					"Pinecone",
-					"Chapaa Masala"
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -185,9 +198,9 @@
 			"Chayne": {
 				"Weekly": [
 					"Wild Garlic",
-					"Wheat Seed",
-					"Pearl",
-					"Palian Onion Soup"
+					"Blueberry Bush Seed",
+					"Heat Root",
+					"Cream of Mushroom Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -227,6 +240,7 @@
 					"Silk",
 					"Silk Thread",
 					"Spice Sprouts",
+					"Spicy Pepper",
 					"Sundrop Lily",
 					"Sweet Leaf",
 					"Tomato",
@@ -237,10 +251,10 @@
 			
 			"Delaila": {
 				"Weekly": [
-					"Channel Catfish",
+					"Rosy Bitterling",
 					"SpeedyGro Fertilizer",
-					"Vampire Crab",
-					"Giant Goldfish"
+					"Stalking Catfish",
+					"Gold Bar"
 				],
 				"Loves": [],
 				"Likes": [
@@ -264,6 +278,7 @@
 					"Silk",
 					"Silk Thread",
 					"Spice Sprouts",
+					"Spicy Pepper",
 					"Sweet Leaf",
 					"Tomato",
 					"Wheat"
@@ -272,10 +287,10 @@
 			
 			"Einar": {
 				"Weekly": [
-					"Spotted Bullhead",
-					"Mirror Carp",
-					"Vampire Crab",
-					"Kilima Greyling"
+					"Bahari Crab",
+					"Ribbontail Ray",
+					"Fathead Minnow",
+					"Long Nosed Unicorn Fish"
 				],
 				"Loves": [],
 				"Likes": [
@@ -287,11 +302,13 @@
 					"Ceramic",
 					"Copper Bar",
 					"Copper Ore",
+					"Dragons Beard Peat",
 					"Emerald Carpet Moss",
 					"Iron Ore",
 					"Onion",
 					"Potato",
 					"Silver Ore",
+					"Spicy Pepper",
 					"Spineshell Crab",
 					"Stone Brick",
 					"Tomato",
@@ -303,10 +320,10 @@
 			
 			"Elouisa": {
 				"Weekly": [
-					"Calico Koi",
-					"Albino Eel",
-					"Willow Lamprey",
-					"Green Pearl"
+					"Unopened Oyster",
+					"Cutthroat Trout",
+					"Leafstalker Mantis",
+					"Cloudfish"
 				],
 				"Loves": [],
 				"Likes": [
@@ -318,6 +335,7 @@
 					"Chapaa Fur",
 					"Coral",
 					"Crystal Lake Lotus",
+					"Dragons Beard Peat",
 					"Elder Sernuk Antlers",
 					"Emerald Carpet Moss",
 					"Fabric",
@@ -345,9 +363,9 @@
 			"Eshe": {
 				"Weekly": [
 					"Leather",
-					"Silk",
-					"Silver Bar",
-					"Gold Bar"
+					"Samara",
+					"Unknown",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -370,10 +388,10 @@
 			
 			"Hassian": {
 				"Weekly": [
-					"Sernuk Antlers",
+					"Chapaa Fur",
 					"Elder Sernuk Antlers",
-					"Azure Chapaa Tail",
-					"Steak Dinner"
+					"Iron Ore",
+					"Shimmerfin"
 				],
 				"Loves": [],
 				"Likes": [
@@ -387,19 +405,26 @@
 					"Bacon-Stuffed Mushrooms",
 					"Bahari Bass",
 					"Bahari Bream",
+					"Barracuda",
+					"Bat Ray",
 					"Beluga Sturgeon",
+					"Blue Spotted Ray",
 					"Bluefin Tuna",
 					"Bouillabaisse",
+					"Cactus Moray",
 					"Chapaa Fur",
 					"Chapaa Masala",
 					"Chapaa Onigiri",
 					"Chili Oil Dumplings",
 					"Copper Bar",
 					"Cream of Tomato Soup",
+					"Creamy Carrot Soup",
 					"Crucian Carp",
+					"Duskray",
 					"Energized Piranha",
 					"Fabric",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Grilled Meat",
 					"Grilled Mushroom",
@@ -419,6 +444,8 @@
 					"Sernuk Noodle Stew",
 					"Silk",
 					"Silk Thread",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Spotted Chapaa Tail",
 					"Steak Dinner",
 					"Trout Dinner",
@@ -430,10 +457,10 @@
 			
 			"Hekla": {
 				"Weekly": [
-					"Crystal Lake Lotus",
-					"Fried Catfish Dinner",
-					"Cream of Mushroom Soup",
-					"Enchanted Pupfish"
+					"Unopened Oyster",
+					"Painted Perch",
+					"Black Sea Bass",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -444,6 +471,7 @@
 					"Carrot Seed",
 					"Copper Bar",
 					"Copper Ore",
+					"Corn Seed",
 					"Cotton Seed",
 					"Green Pearl",
 					"HarvestBoost Fertilizer",
@@ -456,19 +484,21 @@
 					"Palium Ore",
 					"Pinecone",
 					"QualityUp Fertilizer",
+					"Rice Seed",
 					"Silk",
 					"Silk Thread",
 					"Silver Ore",
+					"Spicy Pepper Seed",
 					"Wheat Seed"
 				]
 			},
 			
 			"Hodari": {
 				"Weekly": [
-					"Stone Brick",
-					"Sernuk Noodle Stew",
-					"Proudhorned Sernuk Antlers",
-					"Bahari Glowbug"
+					"Grilled Meat",
+					"Elder Sernuk Antlers",
+					"Blue Marlin",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -479,6 +509,7 @@
 					"Bacon-Stuffed Mushrooms",
 					"Blueberry Bush Seed",
 					"Blueberry Pie",
+					"Carrot Seed",
 					"Chapaa Fur",
 					"Chapaa Masala",
 					"Chapaa Meat",
@@ -486,11 +517,13 @@
 					"Chili Oil Dumplings",
 					"Copper Bar",
 					"Copper Ore",
+					"Corn Seed",
 					"Cotton Seed",
 					"Cream of Tomato Soup",
 					"Creamy Carrot Soup",
 					"Elder Sernuk Antlers",
 					"Fabric",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Gold Ore",
 					"Grilled Meat",
@@ -514,12 +547,16 @@
 					"Potato",
 					"QualityUp Fertilizer",
 					"Ramen",
+					"Rice Seed",
 					"Sernuk Antlers",
 					"Sernuk Hide",
 					"Sernuk Meat",
 					"Silk",
 					"Silk Thread",
 					"Silver Ore",
+					"Spicy Pepper Seed",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Steak Dinner",
 					"Wheat Seed"
 				]
@@ -527,10 +564,10 @@
 			
 			"Jel": {
 				"Weekly": [
-					"Coral",
-					"Sernuk Hide",
+					"Shell",
+					"Silk",
 					"Azure Chapaa Tail",
-					"Green Pearl"
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -545,13 +582,20 @@
 					"Barracuda",
 					"Bat Ray",
 					"Beluga Sturgeon",
+					"Blue Spotted Ray",
 					"Bluefin Tuna",
 					"Briar Daisy",
+					"Cactus Moray",
 					"Chapaa Fur",
+					"Crucian Carp",
 					"Crystal Lake Lotus",
+					"Duskray",
 					"Elder Sernuk Antlers",
 					"Fabric",
+					"Fairy Mantis",
+					"Firebreathing Dragonfly",
 					"Freshwater Eel",
+					"Garden Ladybug",
 					"Garden Leafhopper",
 					"Garden Millipede",
 					"Garden Snail",
@@ -582,10 +626,10 @@
 			
 			"Jina": {
 				"Weekly": [
-					"Flint",
-					"Heat Root",
-					"Dragons Beard Peat",
-					"Void Ray"
+					"Wagon Wheel",
+					"Cotton",
+					"Unknown",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -610,10 +654,10 @@
 			
 			"Kenli": {
 				"Weekly": [
-					"Wagon Wheel",
-					"Garden Ladybug",
-					"Fried Catfish Dinner",
-					"Iron Bar"
+					"Chapaa Meat",
+					"Unknown",
+					"Sashimi",
+					"Palian Onion Soup"
 				],
 				"Loves": [],
 				"Likes": [
@@ -637,6 +681,7 @@
 					"Creamy Carrot Soup",
 					"Crystal Lake Lotus",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Gold Bar",
 					"Grilled Fish",
@@ -660,6 +705,9 @@
 					"Rice",
 					"Sashimi",
 					"Sernuk Noodle Stew",
+					"Spicy Pepper",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Steak Dinner",
 					"Sundrop Lily",
 					"Tomato",
@@ -671,10 +719,10 @@
 			
 			"Kenyatta": {
 				"Weekly": [
-					"Sernuk Antlers",
-					"Elder Sernuk Antlers",
-					"Alligator Gar",
-					"Fairy Mantis"
+					"Brushtail Dragonfly",
+					"Cutthroat Trout",
+					"Brighteye Butterfly",
+					"Crimson Fangtooth"
 				],
 				"Loves": [],
 				"Likes": [
@@ -683,6 +731,8 @@
 					"Akwinduu Chapaa",
 					"Albino Eel",
 					"Apple Pie",
+					"Barracuda",
+					"Bat Ray",
 					"Bouillabaisse",
 					"Briar Daisy",
 					"Brushtail Dragonfly",
@@ -691,6 +741,7 @@
 					"Chapaa Onigiri",
 					"Elder Sernuk Antlers",
 					"Fabric",
+					"Firebreathing Dragonfly",
 					"HarvestBoost Fertilizer",
 					"Inky Dragonfly",
 					"Knapweed",
@@ -710,10 +761,10 @@
 			
 			"Najuma": {
 				"Weekly": [
-					"Knapweed",
+					"Tomato",
 					"Copper Bar",
-					"Silver Ore",
-					"Blueberry Pie"
+					"Apple Jam",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -722,14 +773,18 @@
 					"Alligator Gar",
 					"Bahari Bream",
 					"Bahari Pike",
+					"Barracuda",
 					"Bat Ray",
 					"Beluga Sturgeon",
+					"Blue Spotted Ray",
 					"Bluefin Tuna",
+					"Cactus Moray",
 					"Copper Bar",
 					"Copper Ore",
 					"Coral",
 					"Cream of Tomato Soup",
 					"Crucian Carp",
+					"Duskray",
 					"Firebreathing Dragonfly",
 					"Gillyfin",
 					"Gold Ore",
@@ -756,9 +811,9 @@
 			
 			"Naio": {
 				"Weekly": [
-					"Stone Brick",
-					"Heartwood Plank",
-					"Bahari Pike",
+					"Wagon Wheel",
+					"Fish Stew",
+					"Blueberry Bush Seed",
 					"Steak Dinner"
 				],
 				"Loves": [],
@@ -773,10 +828,12 @@
 					"Blueberry Bush Seed",
 					"Blueberry Jam",
 					"Carrot",
+					"Carrot Seed",
 					"Chapaa Fur",
 					"Chapaa Meat",
 					"Copper Bar",
 					"Copper Ore",
+					"Corn Seed",
 					"Cotton",
 					"Cotton Seed",
 					"Fabric",
@@ -805,6 +862,9 @@
 					"Sernuk Meat",
 					"Silk",
 					"Silk Thread",
+					"Spicy Pepper",
+					"Spicy Pepper Seed",
+					"Standard Smoke Bomb",
 					"Sticky Smoke Bomb",
 					"Tomato",
 					"Trout Dinner",
@@ -816,10 +876,10 @@
 			
 			"Reth": {
 				"Weekly": [
-					"Tomato",
+					"Chapaa Meat",
 					"Sernuk Noodle Stew",
-					"Apple",
-					"Cream of Mushroom Soup"
+					"Unknown",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -833,19 +893,26 @@
 					"Bahari Bass",
 					"Bahari Bream",
 					"Bahari Crab",
+					"Barracuda",
+					"Bat Ray",
 					"Beluga Sturgeon",
+					"Blue Spotted Ray",
 					"Blueberry",
 					"Blueberry Jam",
 					"Blueberry Pie",
 					"Bluefin Tuna",
+					"Cactus Moray",
 					"Cantankerous Koi",
 					"Carrot",
 					"Chapaa Meat",
 					"Chapaa Onigiri",
 					"Chili Oil Dumplings",
 					"Cream of Tomato Soup",
+					"Creamy Carrot Soup",
 					"Crucian Carp",
+					"Duskray",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Grilled Meat",
 					"Grilled Mushroom",
@@ -872,6 +939,9 @@
 					"Sernuk Meat",
 					"Smallmouth Bass",
 					"Spice Sprouts",
+					"Spicy Pepper",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Spineshell Crab",
 					"Steak Dinner",
 					"Sweet Leaf",
@@ -886,10 +956,10 @@
 			
 			"Sifuu": {
 				"Weekly": [
-					"Sernuk Antlers",
-					"Copper Bar",
+					"Chapaa Meat",
+					"Elder Sernuk Antlers",
 					"Cream of Tomato Soup",
-					"Slowdown Arrow"
+					"Gold Bar"
 				],
 				"Loves": [],
 				"Likes": [
@@ -913,6 +983,7 @@
 					"Elder Sernuk Antlers",
 					"Fabric",
 					"Fish Stew",
+					"Fish Tacos",
 					"Fishermans Brew",
 					"Gold Ore",
 					"Grilled Fish",
@@ -937,6 +1008,8 @@
 					"Sernuk Meat",
 					"Silk",
 					"Silk Thread",
+					"Spicy Rice Cakes",
+					"Spicy Stir Fry",
 					"Spotted Chapaa Tail",
 					"Steak Dinner",
 					"Sushi",
@@ -946,10 +1019,10 @@
 			
 			"Tamala": {
 				"Weekly": [
-					"Kilima Night Moth",
-					"Silk",
+					"Chapaa Fur",
+					"Garden Millipede",
 					"Azure Stonehopper",
-					"Fairy Mantis"
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
@@ -963,6 +1036,7 @@
 					"Copper Ore",
 					"Elder Sernuk Antlers",
 					"Fabric",
+					"Fairy Mantis",
 					"Firebreathing Dragonfly",
 					"Golden Glory Bee",
 					"HarvestBoost Fertilizer",
@@ -987,33 +1061,48 @@
 			
 			"Tau": {
 				"Weekly": [
-					"Fried Catfish Dinner",
-					"Striped Chapaa Tail",
-					"Chapaa Masala",
-					"Wagon Wheel"
+					"Trout Dinner",
+					"Sernuk Antlers",
+					"Oyster Meat",
+					"Unknown"
 				],
 				"Loves": [],
 				"Likes": [
+					"Barracuda",
+					"Bat Ray",
+					"Blue Spotted Ray",
 					"Briar Daisy",
 					"Brightshroom",
+					"Cactus Moray",
+					"Carrot",
 					"Chapaa Meat",
 					"Coral",
+					"Crucian Carp",
+					"Crystal Lake Lotus",
+					"Dragons Beard Peat",
+					"Duskray",
+					"Emerald Carpet Moss",
+					"Grilled Meat",
+					"Heat Root",
+					"Heartdrop Lily",
 					"Scarlet Koi",
+					"Sernuk Hide",
 					"Sernuk Meat",
 					"Shell",
 					"Spice Sprouts",
 					"Sundrop Lily",
 					"Sweet Leaf",
+					"Unopened Oyster",
 					"Wild Garlic"
 				]
 			},
 			
 			"Tish": {
 				"Weekly": [
-					"Sapwood Plank",
+					"Sundrop Lily",
 					"Juniper Seed",
-					"Silk Thread",
-					"Green Pearl"
+					"Pearl",
+					"Blueberry Pie"
 				],
 				"Loves": [],
 				"Likes": [
@@ -1050,8 +1139,8 @@
 			
 			"Zeki": {
 				"Weekly": [
-					"Silvery Minnow",
-					"Silk",
+					"Grilled Fish",
+					"Golden Salmon",
 					"Silver Ore",
 					"Bouillabaisse"
 				],
