@@ -3,9 +3,9 @@
 		{
 			"Ashura": {
 				"Weekly": [
-					"Unknown",
+					"Striped Dace",
 					"Striped Sturgeon",
-					"Unknown",
+					"Sernuk Noodle Stew",
 					"Sushi"
 				],
 				"Loves": [],
@@ -95,7 +95,7 @@
 			"Badruu": {
 				"Weekly": [
 					"Potato",
-					"Unknown",
+					"HarvestBoost Fertilizer",
 					"Ramen",
 					"Unknown"
 				],
@@ -169,8 +169,8 @@
 			
 			"Caleri": {
 				"Weekly": [
-					"Unknown",
-					"Unknown",
+					"Grilled Mushroom",
+					"Pickled Carrots",
 					"Chapaa Onigiri",
 					"Hypnotic Moray"
 				],
@@ -257,7 +257,7 @@
 			"Delaila": {
 				"Weekly": [
 					"Cantankerous Koi",
-					"Unknown",
+					"Orange Bluegill",
 					"Shepps Pie",
 					"Unknown"
 				],
@@ -449,7 +449,7 @@
 			
 			"Hekla": {
 				"Weekly": [
-					"Unknown",
+					"Oyster Meat",
 					"Bahari Bream",
 					"Pinecone",
 					"Celebration Cake"
@@ -659,7 +659,7 @@
 			
 			"Kenli": {
 				"Weekly": [
-					"Unknown",
+					"Spotted Chapaa Tail",
 					"Creamy Carrot Soup",
 					"Loaded Potato Soup",
 					"Kenlis Carp"
@@ -726,7 +726,7 @@
 			
 			"Kenyatta": {
 				"Weekly": [
-					"Unknown",
+					"Wild Garlic",
 					"Inky Dragonfly",
 					"Chili Oil Dumplings",
 					"Meaty Stir Fry"
@@ -830,7 +830,7 @@
 				"Weekly": [
 					"Wagon Wheel",
 					"Wheat Seed",
-					"Unknown",
+					"Iron Bar",
 					"Steak Dinner"
 				],
 				"Loves": [],
@@ -898,8 +898,8 @@
 			
 			"Reth": {
 				"Weekly": [
-					"Unknown",
-					"Unknown",
+					"Wild Garlic",
+					"Largemouth Bass",
 					"Unknown",
 					"Palian Onion Soup"
 				],
@@ -985,7 +985,7 @@
 			
 			"Sifuu": {
 				"Weekly": [
-					"Unknown",
+					"Sernuk Meat",
 					"Iron Ore",
 					"Cream of Tomato Soup",
 					"Silver Bar"
